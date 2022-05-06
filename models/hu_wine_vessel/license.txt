@@ -1,0 +1,8 @@
+Model Information:
+* title:	Hu wine vessel (base), late 9th-8th century BCE
+* source:	https://sketchfab.com/3d-models/hu-wine-vessel-base-late-9th-8th-century-bce-3144892f3f4147048107eefcc210f185
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.
