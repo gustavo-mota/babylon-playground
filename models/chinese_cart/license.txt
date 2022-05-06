@@ -1,0 +1,11 @@
+Model Information:
+* title:	China Cart
+* source:	https://sketchfab.com/3d-models/china-cart-1abbb454980e4e45a531756edf9cff4d
+* author:	m0u53r (https://sketchfab.com/m0u53r)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "China Cart" (https://sketchfab.com/3d-models/china-cart-1abbb454980e4e45a531756edf9cff4d) by m0u53r (https://sketchfab.com/m0u53r) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
