@@ -1,0 +1,238 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 33203,
+      "max": [
+        0.1285810023546219,
+        0.12706799805164337,
+        0.17963099479675293
+      ],
+      "min": [
+        -0.12392599880695343,
+        -0.12438499927520752,
+        0.001838000025600195
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 398436,
+      "componentType": 5126,
+      "count": 33203,
+      "max": [
+        0.9998587369918823,
+        0.9999550580978394,
+        0.9999991655349731
+      ],
+      "min": [
+        -0.999977707862854,
+        -0.9999415874481201,
+        -0.9999852180480957
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 33203,
+      "max": [
+        0.9999780654907227,
+        0.9999917149543762,
+        0.9999839663505554,
+        1.0
+      ],
+      "min": [
+        -0.9999943971633911,
+        -0.9998086094856262,
+        -0.9988446235656738,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 33203,
+      "max": [
+        0.9999709725379944,
+        0.9528669714927673
+      ],
+      "min": [
+        9.40000027185306e-05,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 191808,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/gui-chinese-food-vessel-81983aad41fe4981b06dd2f26d98213c",
+      "title": "Gui (Chinese food vessel)"
+    },
+    "generator": "Sketchfab-12.64.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 767232,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 265624,
+      "byteOffset": 767232,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 796872,
+      "byteOffset": 1032856,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 531248,
+      "byteOffset": 1829728,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2360976,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/150625_mia337_000833_100_64Kfaces_OBJ3_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/150625_mia337_000833_100_64Kfaces_OBJ3_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/150625_mia337_000833_100_64Kfaces_OBJ3_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "150625_mia337_000833_100_64Kfaces_OBJ3",
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.8126905488
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.004495705308455056,
+        0.007106200923112177,
+        1.123388409176826,
+        0.0,
+        1.123335710836038,
+        0.012967298918478145,
+        -0.0045775212402558415,
+        0.0,
+        -0.012995891283810401,
+        1.1233225864716232,
+        -0.00705377565782736,
+        0.0,
+        5.733956813812256,
+        -0.11743016541004284,
+        4.602100372314453,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "yu_chinese_food_vessel_obj.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
