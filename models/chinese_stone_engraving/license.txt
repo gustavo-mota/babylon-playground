@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chinese Stone Engraving
+* source:	https://sketchfab.com/3d-models/chinese-stone-engraving-de2be37176514cff85dff84045e553c3
+* author:	dlfitch (https://sketchfab.com/dlfitch)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chinese Stone Engraving" (https://sketchfab.com/3d-models/chinese-stone-engraving-de2be37176514cff85dff84045e553c3) by dlfitch (https://sketchfab.com/dlfitch) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
