@@ -1,0 +1,8 @@
+Model Information:
+* title:	10th C BCE Chinese monk
+* source:	https://sketchfab.com/3d-models/10th-c-bce-chinese-monk-c6efb650b99c45928b3f0c9b89006a60
+* author:	Minneapolis Institute of Art (https://sketchfab.com/artsmia)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.
