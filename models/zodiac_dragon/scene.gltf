@@ -1,0 +1,590 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        253.2515869140625,
+        519.0557861328125,
+        406.8592224121094
+      ],
+      "min": [
+        -353.5718078613281,
+        -479.95404052734375,
+        -279.369140625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.999955952167511,
+        0.9999982118606567,
+        0.9999952912330627
+      ],
+      "min": [
+        -0.9999329447746277,
+        -0.9961503148078918,
+        -0.9999570250511169
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9997188448905945,
+        0.9999989867210388
+      ],
+      "min": [
+        0.0,
+        0.0003701448440551758
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 339303,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 2976,
+      "max": [
+        254.388671875,
+        519.0557861328125,
+        399.72052001953125
+      ],
+      "min": [
+        -345.3522033691406,
+        -478.8282165527344,
+        -276.2579040527344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1608480,
+      "componentType": 5126,
+      "count": 2976,
+      "max": [
+        0.9990090727806091,
+        0.9999937415122986,
+        0.9998874664306641
+      ],
+      "min": [
+        -0.9996128082275391,
+        -0.9961503148078918,
+        -0.9990476369857788
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 2976,
+      "max": [
+        0.9996505975723267,
+        0.9999989867210388
+      ],
+      "min": [
+        0.0,
+        0.0007079243659973145
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1357212,
+      "componentType": 5125,
+      "count": 5346,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1644192,
+      "componentType": 5126,
+      "count": 52093,
+      "max": [
+        228.25888061523438,
+        519.0557861328125,
+        406.00494384765625
+      ],
+      "min": [
+        -332.08697509765625,
+        -465.96417236328125,
+        -232.93568420410156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2269308,
+      "componentType": 5126,
+      "count": 52093,
+      "max": [
+        0.9997881054878235,
+        0.9999918937683105,
+        0.9661149382591248
+      ],
+      "min": [
+        -0.9717646837234497,
+        -0.9999351501464844,
+        -0.9999914765357971
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 548064,
+      "componentType": 5126,
+      "count": 52093,
+      "max": [
+        1.7611278295516968,
+        0.9997105598449707
+      ],
+      "min": [
+        1.0002933740615845,
+        0.01010197401046753
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1378596,
+      "componentType": 5125,
+      "count": 290382,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2894424,
+      "componentType": 5126,
+      "count": 59875,
+      "max": [
+        254.388671875,
+        518.0048217773438,
+        395.68109130859375
+      ],
+      "min": [
+        -353.5498352050781,
+        -480.6245422363281,
+        -277.2900390625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3612924,
+      "componentType": 5126,
+      "count": 59875,
+      "max": [
+        0.9984863996505737,
+        0.9999987483024597,
+        0.9999526143074036
+      ],
+      "min": [
+        -0.9989356994628906,
+        -0.9985512495040894,
+        -0.9999972581863403
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 964808,
+      "componentType": 5126,
+      "count": 59875,
+      "max": [
+        2.766928195953369,
+        0.9996377825737
+      ],
+      "min": [
+        2.0001049041748047,
+        0.07058191299438477
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2540124,
+      "componentType": 5125,
+      "count": 326184,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4331424,
+      "componentType": 5126,
+      "count": 58180,
+      "max": [
+        253.1464080810547,
+        519.0557861328125,
+        406.8592224121094
+      ],
+      "min": [
+        -346.5635986328125,
+        -480.9442138671875,
+        -279.3812561035156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5029584,
+      "componentType": 5126,
+      "count": 58180,
+      "max": [
+        1.0,
+        0.9999997019767761,
+        0.97669517993927
+      ],
+      "min": [
+        -0.9999995231628418,
+        -0.99991375207901,
+        -0.9988928437232971
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1443808,
+      "componentType": 5126,
+      "count": 58180,
+      "max": [
+        3.764887571334839,
+        0.9997533559799194
+      ],
+      "min": [
+        3.000267505645752,
+        0.006794869899749756
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3844860,
+      "componentType": 5125,
+      "count": 326058,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Guangzohu University (https://sketchfab.com/gis.linchuxian)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/stone-dragon-chinese-zodiac-5th-9430f4855e0b4df3b0dbb43cfb348ff3",
+      "title": "Stone Dragon - Chinese Zodiac 5th"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5149092,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1909248,
+      "byteOffset": 5149092,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5727744,
+      "byteOffset": 7058340,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 12786084,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Material0_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Material1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Material2_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Material3_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Material0",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Material1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Material2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Material3",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Stereo textured mesh_Material0_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Stereo textured mesh_Material0_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Stereo textured mesh_Material1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Stereo textured mesh_Material2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Stereo textured mesh_Material3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "sketchfabTemp.obj.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "name": "Stereo textured mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "Stereo textured mesh_Material0_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Stereo textured mesh_Material0_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Stereo textured mesh_Material1_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Stereo textured mesh_Material2_0"
+    },
+    {
+      "mesh": 4,
+      "name": "Stereo textured mesh_Material3_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
