@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kai Yuan Tong Bao Coin
+* source:	https://sketchfab.com/3d-models/kai-yuan-tong-bao-coin-e779cda40c03429690d845f5766fe855
+* author:	Emily Lankiewicz (https://sketchfab.com/emilylankiewicz)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kai Yuan Tong Bao Coin" (https://sketchfab.com/3d-models/kai-yuan-tong-bao-coin-e779cda40c03429690d845f5766fe855) by Emily Lankiewicz (https://sketchfab.com/emilylankiewicz) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
