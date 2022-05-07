@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chinese Terracotta Horse
+* source:	https://sketchfab.com/3d-models/chinese-terracotta-horse-1ffd515f7c8145d0a60e413515262b04
+* author:	3DandVR (https://sketchfab.com/3DandVR)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chinese Terracotta Horse" (https://sketchfab.com/3d-models/chinese-terracotta-horse-1ffd515f7c8145d0a60e413515262b04) by 3DandVR (https://sketchfab.com/3DandVR) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
