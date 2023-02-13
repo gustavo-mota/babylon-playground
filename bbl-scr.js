@@ -2,8 +2,18 @@ const createScene = function () {
     //https://playground.babylonjs.com/#6QWN8D#158
     const scene = new BABYLON.Scene(engine);
 
-    var camera = new BABYLON.ArcRotateCamera("camera", BABYLON.Tools.ToRadians(90), BABYLON.Tools.ToRadians(65), 10, BABYLON.Vector3.Zero(), scene);
+    //var camera = new BABYLON.ArcRotateCamera("camera", BABYLON.Tools.ToRadians(90), BABYLON.Tools.ToRadians(65), 10, BABYLON.Vector3.Zero(), scene);
+    //var camera = new BABYLON.UniversalCamera("camera", BABYLON.Tools.ToRadians(90), BABYLON.Tools.ToRadians(65), 10, BABYLON.Vector3.Zero(), scene);
+    var camera = new BABYLON.UniversalCamera("UniversalCamera", new BABYLON.Vector3(0, 7, -10), scene);
+    camera.ellipsoid = new BABYLON.Vector3(4, 4, 4);
     camera.attachControl(canvas, true);
+    camera.fov = 1.2
+    camera.inertia = 0.2
+    camera.applyGravity = true;
+
+    scene.collisionsEnabled = true;
+    camera.checkCollisions = true;
+    //camera.setTarget()
     const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
 
     //BABYLON.SceneLoader.ImportMeshAsync("semi_house", "https://assets.babylonjs.com/meshes/", "both_houses_scene.babylon");
@@ -12,6 +22,7 @@ const createScene = function () {
     newMaterial.diffuseColor = new BABYLON.Color3.Blue;
 
     var ground = BABYLON.MeshBuilder.CreateGround("ground", {width: 30, height: 60}, scene);
+    ground.checkCollisions = true
     let groundMaterial = new BABYLON.StandardMaterial("Ground Material", scene);
     ground.material = groundMaterial;
     let groundTexture = new BABYLON.Texture(Assets.textures.checkerboard_basecolor_png.rootUrl, scene);
@@ -29,7 +40,7 @@ const createScene = function () {
     /* const turtleModelURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/turtle/'
     const turtleModelName = 'scene.gltf'
     var turtleLamp = BABYLON.SceneLoader.ImportMeshAsync("", turtleModelURL, turtleModelName, scene) */
-
+/* 
     const chinese_lanternURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/chinese_lantern/'
     const chinese_lanternName = 'scene.gltf'
     var chinese_lantern1 = BABYLON.SceneLoader.ImportMeshAsync("", chinese_lanternURL, chinese_lanternName, scene).then((result)=>{
@@ -49,9 +60,9 @@ const createScene = function () {
         result.meshes[0].position.x = -10;
         result.meshes[0].position.z = -25;
         result.meshes[0].position.y = 10;
-    })
+    }) */
 
-    const hu_wine_vesselURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/hu_wine_vessel/'
+    /* const hu_wine_vesselURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/hu_wine_vessel/'
     const hu_wine_vesselName = 'scene.gltf'
     var hu_wine_vessel = BABYLON.SceneLoader.ImportMeshAsync("", hu_wine_vesselURL, hu_wine_vesselName, scene)
     .then((result)=>{
@@ -69,12 +80,12 @@ const createScene = function () {
     .then((result)=>{
         result.meshes[0].position.x = 10.5
         result.meshes[0].position.y = 4
-    })
+    }) */
 
     //const chinese_buddhist_pagodaURL = 'https://github.com/gustavo-mota/babylon-playground/blob/master/models/chinese_pagoda/'
     //var small_lion = hu_wine_vessel = BABYLON.SceneLoader.ImportMeshAsync("", chinese_buddhist_pagodaURL, 'scene.gltf', scene)
 
-    const chinese_cartURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/chinese_cart/'
+    /* const chinese_cartURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/chinese_cart/'
     var chinese_cart = BABYLON.SceneLoader.ImportMeshAsync("", chinese_cartURL, 'scene.gltf', scene)
     .then((result)=>{
         const decrease = 350
@@ -96,9 +107,9 @@ const createScene = function () {
         result.meshes[0].scaling.x *= increase;
         result.meshes[0].scaling.y *= increase;
         result.meshes[0].scaling.z *= increase;
-    })
+    }) */
 
-    const stone_engravingURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/chinese_stone_engraving/'
+    /* const stone_engravingURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/chinese_stone_engraving/'
     var stone_engraving = BABYLON.SceneLoader.ImportMeshAsync("", stone_engravingURL, 'scene.gltf', scene)
     .then((result)=>{
         result.meshes[0].position.x = -10.5
@@ -127,9 +138,9 @@ const createScene = function () {
         result.meshes[0].scaling.x /= decrease;
         result.meshes[0].scaling.y /= decrease;
         result.meshes[0].scaling.z /= decrease;
-    })
+    }) */
 
-    const amoghasiddhi_buddhaURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/chinese_amoghasiddhi_buddha/'
+    /* const amoghasiddhi_buddhaURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/chinese_amoghasiddhi_buddha/'
     var amoghasiddhi_buddha = BABYLON.SceneLoader.ImportMeshAsync("", amoghasiddhi_buddhaURL, 'scene.gltf', scene)
     .then((result)=>{
             const increase = 20
@@ -163,7 +174,7 @@ const createScene = function () {
         result.meshes[0].scaling.x *= increase;
         result.meshes[0].scaling.y *= increase;
         result.meshes[0].scaling.z *= increase;
-    })
+    }) 
     const daggerURL = 'https://raw.githubusercontent.com/gustavo-mota/babylon-playground/master/models/dagger/'
     var dagger = BABYLON.SceneLoader.ImportMeshAsync("", daggerURL, 'scene.gltf', scene)
     .then((result)=>{
@@ -186,15 +197,41 @@ const createScene = function () {
         result.meshes[0].scaling.x *= increase
         result.meshes[0].scaling.y *= increase
         result.meshes[0].scaling.z *= increase
-    })
-
+    }) */
+    var gunshot = new BABYLON.Sound("gunshot", "sounds/gunshot.wav", scene);
     let boxList = []
+    let songsNames = {'0': 'lion', '1':'hu_vessel', '2':'cart', 
+                        '3':'bell', '4': 'undefined', '5':'cavalo','6':'dragao',
+                        '7':'pedra','8':'tigela','9':'knife',
+                        '10':'coin', '11': 'monge', '12':'buda' }
+    let boxSongs = []
+    //let songsNames = {}
+    let songsURLs = {'0': 'lion', '1':'hu_vessel', '2':'cart', 
+                        '3':'bell', '4': 'undefined', '5':'cavalo','6':'dragao',
+                        '7':'pedra','8':'tigela','9':'knife',
+                        '10':'coin', '11': 'monge', '12':'buda' } // alterar pras urls
+    for(var i=0; i < 12; i++){
+        if(i<4){
+            boxSongs[i] = new BABYLON.Sound(songsNames[str(i)], songsURLs[str(i)], scene);
+        }else if(i>4){
+            boxSongs[i] = new BABYLON.Sound(songsNames[str(i)], songsURLs[str(i)], scene);
+        }else{
+            boxSongs[i] = undefined
+        }
+    }
     //boxList.push(box)
     let zValue = 0
     let xValue = 10.5
     let zSeparation = 7.5
     for(let i = 0; i < 13; i++){
         boxList.push(BABYLON.MeshBuilder.CreateBox("box", {}))
+        boxList[i].checkCollisions = true;
+        //boxActionsList[i] 
+        boxList[i].actionManager = new BABYLON.ActionManager(scene)
+        boxList[i].actionManager.registerAction( new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnLeftPickTrigger, function () {
+        alert(`Box ${i} clicked`);
+        gunshot.play()
+    }))
         boxList[i].position.x = xValue
         boxList[i].position.z = zValue
         boxList[i].position.y = 2
